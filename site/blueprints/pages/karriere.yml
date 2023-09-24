@@ -1,0 +1,55 @@
+title: My blueprint
+
+tabs:
+
+  # content tab
+  content:
+    label: Inhalt
+    icon: text
+    columns:
+
+      # main
+      left:
+        width: 2/3
+        sections:
+
+          # a simple form
+          content:
+            type: fields
+            fields:
+              karriere_label:
+                label: Karriere Label
+                type: text
+              karriere_heading:
+                label: Karriere Heading
+                type: text
+              karriere_paragraph:
+                label: Karriere Paragraph
+                type: textarea
+              main_image:
+                label: Main Image
+                type: files
+              benefits:
+                label: Benefits
+                type: structure
+                fields:
+                  number:
+                    label: Number
+                    type: text
+                  heading:
+                    label: Heading
+                    type: text
+                  paragraph:
+                    label: Paragraph
+                    type: textarea
+
+      # sidebar
+      right:
+        width: 1/3
+        sections:
+
+          # a list of subpages
+          pages:
+            type: pages
+            label: Jobs
+            template: job

@@ -1,0 +1,16 @@
+title: Kontaktseite
+
+fields:
+  contact_number:
+    label: Telefonnummer
+    type: text
+  contact_location:
+    label: Kontaktadresse
+    type: text
+  contact_email:
+    label: Kontaktmail
+    type: text
+  contact_image:
+    label: Kontakt Bild
+    type: files
+

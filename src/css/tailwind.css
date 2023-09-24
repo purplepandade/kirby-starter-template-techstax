@@ -1,0 +1,185 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .h-screen-header{
+        height: calc(100vh - var(--NavHeight));
+    }
+
+    .h-1{
+      height: 1px
+    }
+
+    .border-1{
+      border-width: 1px;
+    }
+
+    .border-t-1{
+      border-top-width: 1px;
+    }
+    .border-b-1{
+      border-bottom-width: 1px;
+    }
+    .page-width {
+      @apply max-w-4xl mx-auto px-5
+    }
+
+    .svg-100{
+      overflow: hidden;
+    }
+
+    .svg-100 svg{
+      width: 100%;
+      transition: all 0.2s ease-in-out;
+      transform: translateY(-100%);
+      opacity:0;
+
+    }
+
+    .svg-100.animated svg{
+      transform: translateY(0%);
+      opacity:1;
+    }
+    .btn{
+        @apply bg-primary inverted text-white font-normal py-4 px-8 transition ease-in-out cursor-pointer border-transparent border-1 rounded-sm ;
+     }
+
+     .btn--secondary{
+      @apply bg-primary inverted bg-transparent text-font font-normal py-4 px-8 transition ease-in-out cursor-pointer border-font border-1 rounded-sm;
+     }
+
+     .btn--inverse{
+      @apply bg-white inverted text-primary font-normal py-4 px-8 transition ease-in-out cursor-pointer border-font rounded-sm hover:text-white hover:bg-primary;
+     }
+
+     .btn--round{
+      @apply rounded-full bg-transparent text-white w-[2rem] h-[2rem] p-2 border-1 border-primary aspect-square flex items-center transition-all hover:bg-primary;
+     }
+
+     .btn-white{
+        @apply bg-white text-primary font-normal py-2 px-8 transition ease-in-out cursor-pointer border-transparent border-2 hover:cursor-pointer
+     }
+
+     .btn-high{
+        @apply py-4 px-8 
+     }
+
+     .font-normal{
+      @apply tracking-tight
+     }
+
+     .font-bold{
+     @apply tracking-tighter
+     }
+
+     .link{
+      @apply text-primary
+     }
+
+     .link-arrow::after{
+      content: url("/assets/branding/arrow.svg");
+      display:inline-block;
+      margin-left: 0.8rem;
+     }
+
+     .link-arrow.btn::after, .link-arrow-reverse.btn::before{
+      filter: invert(1) brightness(100);
+     }
+
+     .link-arrow:hover.btn::after ,.link-arrow-reverse:hover.btn::before{
+      filter: invert(0) brightness(1);
+     }
+
+     .fill-white svg,.fill-white path{
+      fill:#ffffff!important;
+     }
+
+     .link-arrow.btn--round::after{
+      content: url("/assets/branding/arrow.svg");
+      display:inline-block;
+      margin-left: 0rem;
+     }
+
+     .link-arrow.btn--round:hover::after{
+      filter: invert(1) brightness(100);
+     }
+
+     .link-arrow-reverse::before{
+      content: url("/assets/branding/arrow-reverse.svg");
+      display: inline-block;
+      margin-right: 0.4rem;
+      width: 14px;
+     }
+
+     .custom-upload{
+      background: rgba(123, 123, 123, 0.1);
+     }
+
+     .inverted:hover{
+        background-color: white;
+        color: var(--primaryColor);;
+        border: 1px solid var(--primaryColor);
+        cursor: pointer;
+     }
+
+     .footer-link{
+      @apply text-white text-sm opacity-50 block mb-2
+     }
+
+     body{
+        background: var(--bodyColor);
+        scroll-behavior: smooth;
+     }
+
+     .hidden-menu{
+        @apply opacity-0 translate-y-3;
+     }
+
+     .menu-item{
+        @apply opacity-100 translate-y-0 transition-all;
+
+     }
+
+     .honeypot {
+      position: absolute;
+      left: -9999px;
+  }
+
+  .alert{
+    @apply text-primary font-semibold
+  }
+
+
+  .font-bold{
+    @apply tracking-tight;
+  }
+
+.page-width > p{
+@apply mb-2
+}
+
+.page-width ul{
+  list-style-type: disc;
+}
+
+}
+
+@media screen(lg) {
+
+}
+
+@media screen(md) {
+  .btn{
+    @apply bg-primary inverted text-white font-normal py-2 px-8 transition ease-in-out cursor-pointer border-transparent border-1 rounded-sm ;
+ }
+
+ .btn--secondary{
+  @apply bg-primary inverted bg-transparent text-font font-normal py-2 px-8 transition ease-in-out cursor-pointer border-font border-1 rounded-sm;
+ }
+
+ .page-width {
+  @apply max-w-7xl mx-auto px-2
+}
+
+}

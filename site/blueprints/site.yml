@@ -1,0 +1,20 @@
+title: Site
+
+sections:
+  pages:
+    type: pages
+
+  content:
+    type: fields
+    fields:
+      menu:
+        label: Header Menu
+        type: structure
+        fields:
+          linktext:
+            label: Linktext
+            type: text
+          pages:
+            label: Seite
+            type: pages
+

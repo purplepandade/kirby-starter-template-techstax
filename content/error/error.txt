@@ -1,0 +1,15 @@
+Title: Error
+
+----
+
+Text:
+
+#**Error #404**
+<br>
+Diese Seite existiert nicht
+
+(link: /home text: **Zurück zur Startseite**)
+
+----
+
+Uuid: PfVpryN0m2KvrsCm

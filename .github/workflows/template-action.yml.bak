@@ -1,0 +1,18 @@
+on: push
+name: 🚀 Deploy website on push SFTP
+jobs:
+  mirror_with_sftp:
+    name: deploy
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: SFTP mirror
+        uses: verbindingsfout/sftp-mirror@v1.6
+        with:
+          server: 0
+          user: acc2046759768
+          password: luh8tzguzgv4r5vgz
+          port: 22
+          local: ./
+          remote: meier/

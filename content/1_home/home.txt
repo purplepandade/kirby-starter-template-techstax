@@ -1,0 +1,134 @@
+Title: Home
+
+----
+
+Heading: Title
+
+----
+
+Subheading: Wir sind spezialisiert auf alle Bereiche des Hoch-, Tief- und Stahlbetonbaus sowie auf die Errichtung moderner, funktionaler Industriebauten.
+
+----
+
+Buttons:
+
+- 
+  text: Unsere Projekte
+  url:
+    - page://rXe5jjpLJcgWMbOk
+- 
+  text: Kontakt
+  url:
+    - page://BUut3c1cYmCUrpXw
+
+----
+
+Main-image: - file://iUwgPbIlSOSgwHqZ
+
+----
+
+Mobile-image: - file://fE0i704v9WEmeHAS
+
+----
+
+Heading-unternehmen:
+
+Mit Präzision, Leistung und
+Qualität hat sich FWM längst
+einen Namen gemacht.
+
+----
+
+Subheading-unternehmen: Unsere große Baustelle, die viel Platz für Schalung und Bewehrung bietet, und unser hochmoderner Maschinenpark mit Baggern, Ladern, Kränen und Baumaschinen sind die Basis unseres jahrzehntelangen Erfolgs.
+
+----
+
+Numbers:
+
+- 
+  heading: Mitarbeiter
+  number: "60"
+  subheading: Test
+- 
+  heading: Test
+  number: "40"
+  subheading: Test
+- 
+  heading: abgeschlossene Projekte
+  number: "60"
+  subheading: Test
+
+----
+
+Leistungen:
+
+- 
+  heading: Stahlbetonbau
+  paragraph: 'Eine absolute Spezialität unseres Unternehmens ist der Stahlbeton- und Ingenieursbau von Industrieanlagen und Bauten aller Art.'
+  button_text: Mehr Informationen
+  button_url:
+    - page://a6001iAOzFzi80th
+  icon:
+    - file://2QIfdmrHi4DnJneo
+- 
+  heading: Industriebau
+  paragraph: 'Vom ersten Spatenstich an, über den Rohbau bis zum fertigen Gebäude sind wir ihr einziger Ansprechpartner für Koordination und Bauleitung bei  Industriebauten.'
+  button_text: Mehr Informationen
+  button_url:
+    - page://a6001iAOzFzi80th
+  icon:
+    - file://VGe8yz6BzzLieB2P
+- 
+  heading: Hochbau
+  paragraph: 'Unsere Leistungen im allgemeinen Hochbau und Wohnungsbau umfassen sämtliche Planungs- sowie Ausführungsstadien sowie Gewerke. Auf Wunsch wird das Projekt auch teilschlüsselfertig übergeben.'
+  button_text: Mehr Informationen
+  button_url:
+    - page://a6001iAOzFzi80th
+  icon:
+    - file://e5P1RNDwIjnMk63H
+- 
+  heading: Tiefbau
+  paragraph: >
+    Vernünftiger Tiefbau fängt bereits bei
+    der Planung der zu gestaltenden Flächen
+    sowie der Auswahl der zu verwendenden
+    Materialien an. Als kompetentes Team
+    stehen wir ihnen mit unserem geballten
+    Know-how zur Seite.
+  button_text: Mehr Informationen
+  button_url:
+    - page://a6001iAOzFzi80th
+  icon:
+    - file://UeNW2OzL56mBWWOT
+
+----
+
+Leistungen-subheading: 
+
+----
+
+Leistungen-heading: 
+
+----
+
+Cta-heading: 
+
+----
+
+Cta-subheading: 
+
+----
+
+Cta-paragraph: 
+
+----
+
+Cta-button-text: 
+
+----
+
+Cta-button-url: 
+
+----
+
+Uuid: JLo6T2Hxmamoqs4Q

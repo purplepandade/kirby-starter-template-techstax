@@ -1,0 +1,17 @@
+Title: [sitename]
+
+----
+
+Menu:
+
+- 
+  linktext: Home
+  pages:
+    - page://JLo6T2Hxmamoqs4Q
+- 
+  linktext: Link2
+  pages: [ ]
+
+----
+
+Certificate: 

@@ -1,0 +1,5 @@
+title: Home
+fields:
+  heading:
+    label: Heading
+    type: textarea

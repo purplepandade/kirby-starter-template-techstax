@@ -1,0 +1,27 @@
+title: Job
+
+subpage_builder:
+  - title: Job
+    uid: job
+    template: job
+    num: 1
+
+fields:
+  job_title:
+    label: Job Title
+    type: text
+  job_paragraph:
+    label: Job Description
+    type: textarea
+  job_location:
+    label: Job Location
+    type: text
+  job_type:
+    label: Job Type
+    type: text
+  main_image:
+    label: Image
+    type: files
+  job_header:
+    label: Job Header
+    type: textarea
